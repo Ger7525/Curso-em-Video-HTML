@@ -1,0 +1,23 @@
+body{
+                        background-color:rgb(220, 230, 215);
+                        font-family: Arial, Helvetica, sans-serif;
+                      }
+                      h1{
+                        color:rgb(10, 187, 25);
+                        font-size: 30px;
+                        background-color: yellow);
+                      }
+                      h2{
+                        color:rgb(231, 231, 233);
+                        font-size: 20px;
+                        background-color: blue;
+                      }
+                      p{
+                        color:blue;
+                        font-size: 12px;
+                      }
+                      div{
+                        color:rgb(5, 5, 29);
+                        font-size: 20px;
+                        background-color:rgb(154, 206, 12)
+                      }
