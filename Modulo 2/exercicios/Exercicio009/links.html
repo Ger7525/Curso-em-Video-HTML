@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+                    <title>Links</title>
+                       
+
+                            
+                    
+                    
+                    
+                    
+               <style>
+                           /*
+                           # = id
+                           . = class
+                           : = pseudo-classe
+                           :: = pseudo-elemento
+                           > = seletor filho
+                           */              
+                                   
+                    body{
+                             font-family: Arial, Helvetica, sans-serif; 
+                             font-weight: bold;
+                                    
+                        }
+                    a{
+                           color: red;
+                           text-decoration: none;
+
+                        }
+                        a:visited{
+                            color: darkred;
+                        } 
+                    a:hover{
+                            color:white;
+                            background-color: black;
+                            text-decoration: underline;
+                        } 
+                    a:active{/*Estilo para o link ativo, ou seja, quando é clicado*/
+                            color: white;
+                            background-color: red;
+                        }
+                    a::after{ /*Adiciona um conteúdo após o link*/
+                            content: " ⇐";
+                            font-size: 12px;
+                            color:blue
+                        }  
+                    a::before{/*Adiciona um conteúdo antes do link*/
+                            content: "⇒ ";
+                            font-size: 12px;
+                            color: darkblue
+                        }  
+                    .especial a{/*Estilo para o link dentro do elemento com a classe "especial"*/
+                                 color: green;
+                                 background-color: lightgreen;
+                                        }
+                    div>ul{ /*Estilo para a lista dentro do div*/
+                                 display: none;
+                                 list-style-type: none; /*Remove os marcadores da lista*/
+                     }
+                    h2:hover{ /*Estilo para o título h2 quando o mouse estiver sobre ele*/
+                                 color: white;
+                                 background-color: blue;
+                                 font-size: 25px;
+                                 width: 250px;
+                                        }                    
+
+                    
+                    div:hover > ul{ /*Estilo para os links dentro do div quando o mouse estiver sobre ele*/
+                                 display: block;
+                                                                                               }                  
+
+
+               </style>
+</head>
+<body>
+                    <h1>Personalizando Links</h1>
+                    <ul>
+                        <li><a href="https://github.com/Ger7525" target="_blank">Repositório GitHub</a></li>
+                        <li class="especial"><a href="https://www.youtube.com/" target="_blank">Canal do Youtube</a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank">Instagran</a></li>                
+                    </ul>
+                    <h1>Exemplo de links 2</h1>
+                    <div>
+                       <h2>Acesse meus links</h2>
+                       <ul>
+                           <li><a href="https://github.com/Ger7525" target="_blank">Repositório Github</a></li>
+                           <li><a href="https://www.youtube.com/" target="_blank">Canal do Youtube</a></li>
+                           <li><a href="https://www.instagram.com/" target="_blank">Instagran</a></li>             
+                       </ul>                 
+                    </div>
+                    
+</body>
+</html>
