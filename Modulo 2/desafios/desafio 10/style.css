@@ -1,0 +1,110 @@
+@font-face{
+       font-family:idroid;
+       src: url(fontes/idroid.otf); format(opentype);
+}
+*{
+  margin:0;
+  padding: 0; 
+ 
+
+}
+
+/*cabeçalho*/
+header{
+       background-image: linear-gradient(to top, #1B613A, #3DD983 );
+       color:white;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+#title > h1{
+       text-align: center;
+       padding: 25px 0;
+       font-size: 30px;
+       
+}
+#title > p{
+       text-align: center;
+       padding: 10px 0;
+}
+nav > a{
+    
+    padding: 10px;   
+      
+
+} 
+/*Corpo da pagina*/
+main{
+     background-color: #82D9A0;  
+}
+#conteudo{
+     max-width: 1100px;
+     background-color: white;
+     position: relative;
+     margin: 0px auto;   
+     padding: 20px 50px;   
+}
+.destaque{
+     color: #1B613A ; 
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+
+}
+.subtitulo{
+    font-family: idroid;
+    color:#1B613A ; 
+    padding: 10px 0 ; 
+    background-image: linear-gradient(to right, #82D9A0, white); 
+}
+.title2{
+       font-family: idroid;
+       color:#1B613A ; 
+
+}
+#conteudo > p{
+       text-align: justify;
+       margin: 10px 0;
+}
+.img{
+       text-align: center;
+}
+#video{
+      text-align: center; 
+      background-color:#22733F ;
+}
+.saiba-mais{
+     background-color: #82D9A0;  
+}
+.extra{
+      max-width: 1100px;
+     background-color: white;
+     position: relative;
+     margin: 0px auto;   
+     padding: 20px 50px;   
+}
+.extra > h3{
+       color: white;
+       background-color:#22733F ;
+       padding: 5px 10px 10px 10px;
+       font-size: 16px;
+}
+.extra > P{
+       background-color:#C4F2D4 ;
+       text-align:justify ;
+}
+.extra > span > ul{
+     background-color:#C4F2D4 ;
+     
+    
+    
+}
+footer{
+       background-color: #22733F ;
+       text-align: center;
+       color: white;
+}
+#especial{
+       text-align: justify;
+       margin-top: 10px;
+       background-color: white;
+}
+
+
