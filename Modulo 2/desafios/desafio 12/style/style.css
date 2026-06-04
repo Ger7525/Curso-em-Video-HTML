@@ -1,0 +1,148 @@
+@charset "UTF-8";
+*{
+ margin: 0;
+ padding: 0;                   
+}
+body{
+  font-family: sans-serif; 
+  max-width: 600px;
+  margin: 0 auto;
+}
+header{
+    max-width: 600px; 
+    background-color: black;
+    color: white;
+    padding: 30px 30px;
+    margin: 0 auto 0 auto;
+    border: 10px solid black;
+   
+}
+header h1{
+       
+    margin: 30px 30px;
+    font-size: 3em; 
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);  
+    text-align: center;          
+}
+header p{
+    font-size: 1em;
+    font-family: idroid;
+    margin: 20px 20px 0px 20px;
+    text-align: center;
+    
+    
+
+}
+header a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+header a:hover{
+    
+    color:blue;
+    transition: 0.3s;
+    text-decoration:underline
+}   
+main{
+    max-width: 600px;   
+     min-height: 350px;
+     margin: 0 auto 0 auto; 
+     background-color: white;
+     border: 1px solid black;
+    padding: 10px 10px; 
+    font-style: italic;
+
+}
+.text_liso_1{
+    
+    font-size: 1em;
+    line-height: 2em;
+    padding-bottom: 70px;
+    padding-top: 50px;
+    font-weight:bold;
+    padding-left: 20px;
+   
+}
+.img_1{
+    background-image: url(../imagens/background001-2.jpg);
+    font-size: 1em;
+    line-height: 2em;
+    padding: 60px 0px;
+    margin: 0px 0px 60px 0px;
+   
+}
+.img_1 p{
+    color: white;
+    padding: 0px 20px;
+    
+    
+}
+.text_liso_2{
+    font-size: 1em;
+    line-height: 2em;
+    padding-bottom: 70px;
+    padding-top: 50px;
+    font-weight:bold;
+    padding-left: 20px;
+}
+.text_liso_3{
+    font-size: 1em;
+    line-height: 2em;
+    padding-bottom: 70px;
+    padding-top: 50px;
+    font-weight:bold;
+    padding-left: 20px;
+}
+.img_2{
+    background-image: url(../imagens/background002-2.jpg);
+    font-size: 1em;
+    line-height: 2em;
+    padding: 60px 0px;
+    margin: 0px 0px 60px 0px;
+}
+.img_2 p{
+    color: black;
+    padding: 0px 20px;
+    
+}
+.text_liso_4{
+    font-size: 1em;
+    line-height: 2em;
+    padding-bottom: 70px;
+    padding-top: 50px;
+    font-weight:bold;
+    padding-left: 20px;
+}    
+.text_liso_5{
+    font-size: 1em;
+    line-height: 2em;
+    padding-bottom: 70px;
+    padding-top: 50px;
+    font-weight:bold;
+    padding-left: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    margin: 0 auto 0 auto;
+    border: 1px solid black;
+    text-align: center;
+}
+footer p{
+    font-size: 1em;
+    font-family: idroid;
+    margin: 10px;
+    text-align: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+footer a:hover{
+    color:blue;
+    transition: 0.3s;
+    text-decoration:underline
+}    
