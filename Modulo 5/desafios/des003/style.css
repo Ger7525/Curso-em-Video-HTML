@@ -6,81 +6,68 @@
                     box-sizing: border-box;
 }
 body{
-                    font-family: Arial, Helvetica, sans-serif;
-                    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 1em;
+    line-height: 1.5em;
+    width: 100vw;
+    height: 100vh;
                     
 }
-header{
+header, section.normal{
                     padding: 20px;
-                    display: flex;
-                    flex-flow: column wrap;
-                    align-items: flex-start;
-                    align-content: flex-start;
+}
+p, h1, h2{
+                    margin-bottom: 10px;
+                    text-align: justify;
+                   
+}
+p{
+                 padding: 10px;   
+}
+h1{
+                    text-align: center;
+}
+h2{
+                    padding: 10px;
 }
 main{
-                    background-color: #888;
-                    width: 100vw;
+     margin: 0 auto;    
+     max-width: 1400px;           
 }
-.media{
-                    display: flex;
-                    flex-flow: row wrap;
-                    justify-content: space-around;
-                    align-items:center;
-                    align-content: center;
-                    padding: 10px;
-                    gap: 10px;
+section.flex-container{
+         background-color: rgba(211, 211, 211, 0.382);  
+         padding: 20px; 
+         display: flex;  
+         flex-flow: column nowrap; 
+         gap: 20px;     
 }
-.media .box-1{
-                    flex-basis: 50%;
+article.text-media{
+        display: flex; 
+        flex-flow: row wrap; 
+        justify-content: space-between;
+               
 }
-.media .box-1 h2{
-                    padding: 10px;
+article.media-text{
+      display: flex; 
+      flex-flow: row wrap-reverse; 
+      justify-content: space-between;
+                
 }
-.media .box-1 p{
-                    padding: 10px;
-                    text-align: justify;
+article > div.text{
+      flex: 1 1 500px; 
+                 
 }
-.media .box-2{
-                   flex-basis: 40%;
+article > div.media{
+      flex: 1 0 400px; 
+                 
 }
-.media .box-2 img{
-               width: 300px;     
+div.media img{
+      display: block;
+      margin: auto;         
 }
-.texto{
-          display: flex;
-          flex-flow: row wrap;
-          justify-content: space-around;
-          align-items:center;
-          align-content: center;
-          padding: 10px; 
-          gap: 10px;          
-}
-.texto .box-3{
-         flex-basis:50%;           
-}
-.texto .box-3 h2{
-                    padding: 10px;
-}
-.texto .box-3 p{
-                    padding: 10px;
-                    text-align: justify;
-
-}
-.texto .box-4{
-                    
-}
-.texto .box-4 video{
-                   
-                    flex-basis: 1 1 80%;
-                   
-}
-footer{
-                    padding:10px;
-                    display: flex;
-                    flex-flow: column wrap;
-                    justify-content:flex-start ;
-
-}
-footer h2, p{
-                    padding: 10px;
+div.media iframe{
+      display: block;
+      margin: auto; 
+      width: 90%;             
 }
