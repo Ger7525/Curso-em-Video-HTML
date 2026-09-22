@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Desafio Grid</title>
+                    <style>
+                         *{
+                              margin: 0;
+                              padding: 0;
+                              box-sizing: border-box;
+                              
+                         }
+                         body{
+                              margin: 0 auto;
+                              font-family: Arial, Helvetica, sans-serif;
+                              background-color: #D8F3DC;
+                         }
+                         .container{
+
+                               margin: 0 auto;
+                               width: 100vw;
+                               height: 100vh;
+                               max-width: 800px;
+                               display: grid;
+                               grid-template-rows: 80px 40px 1fr 40px; 
+                               grid-template-columns:1fr 150px ;
+                               gap: 10px;  
+                               text-align: center;
+                               
+                               
+                                   
+                         } 
+                         .topo{
+                              background-color:#2D6A4F;
+                              color: #1B3B2B;
+                              grid-area:1 /span 3;
+                              align-items: center;
+                              align-content: center;
+                             
+                              border: 2px solid #95D5B2;
+                         }
+                         .topo h1{
+                              text-shadow: 1px 2px 3px #95D5B2;
+                         } 
+                         .menu{
+                                background-color: #95D5B2; 
+                                grid-area: 2/span 3;
+                                display: flex;
+                                justify-content: space-;
+                                align-items: center;
+                                align-content: center;
+                                border: 1px solid #95D5B2;       
+                         }
+                         .menu a{
+                              text-decoration: none;
+                              color: #52B788;
+                              font-weight: bold;
+                              transition: all 0.3s;
+
+                         }
+                         .menu a:hover{
+                              color: #1B3B2B;
+                         } 
+                         .principal{
+                                background-color: #95D5B2; 
+                                grid-area: 3/span 2;
+                                border: 1px solid #95D5B2; 
+                                box-shadow: 0px 0px 4px #2d6a4faa; 
+                                padding: 20px;         
+                         }
+                         .secundario{
+                                background-color: #95D5B2; 
+                                grid-area: 3/3;
+                                display: flex;
+                                flex-flow: column wrap;
+                                border: 1px solid black;              
+                         } 
+                         .rodape{
+                               background-color: rgba(169, 169, 169, 0.426); 
+                               grid-area:4/span 3;
+                               align-items: center;
+                               align-content: center;
+                               border: 1px solid black;           
+                         }           
+                    </style>
+</head>
+<body>
+        <div class="container">
+             <header class="topo">
+               <h1>Testando Grid Layout</h1>
+             </header>
+             <nav class="menu">
+               <a href="#">Opção 1</a>
+               <a href="#">Opção 2</a>
+               <a href="#">Opção 3</a>
+               <a href="#">Opção 4</a>
+               <a href="#">Opção 5</a>
+               <a href="#">Opção 6</a>
+             </nav>
+             <main class="principal">
+               <h2>Fazendo uma pagina apenas com Grid layout</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat hic, cum nihil rem in quasi. Impedit, nemo fugit consequatur voluptate excepturi molestias labore fugiat. A dolor aspernatur veritatis. Consequatur, sit?</p>
+              
+             </main>
+             <section class="secundario">
+               <h3>Secundario</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid delectus amet nisi eaque a, vero, omnis quae harum enim optio id sapiente doloremque placeat quis illo perspiciatis ut blanditiis sint.</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sapiente aperiam, qui tempora laudantium fuga fugit provident quam illum reprehenderit magni vel voluptatum, eum neque cum exercitationem. Exercitationem, quisquam debitis.</p>
+             </section>
+             <footer class="rodape"><p>&copy; Exercício feito por Germano Santos.</p></footer>       
+        </div>            
+                    
+</body>
+</html>
